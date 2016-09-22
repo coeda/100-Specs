@@ -704,9 +704,12 @@ function SolarSystem(){
  *
  */
 
-function PrincessLeia (){
+function PrincessLeia (name, money ,age, gender){
+  Person.call(this,name, money, age, gender);
+  this.isInTrouble = null;
+}
 
-};
+PrincessLeia.prototype = Object.create(Person.prototype);
 
 /* Step 34
  *
