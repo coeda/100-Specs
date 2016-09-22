@@ -231,6 +231,12 @@ let DNA = ['nucleatides', 'guanine', 'adenine', 'thymine', 'cytosine'];
  *
  */
 
+let laptopCosts = {
+  MacBook: 1500,
+  Alienware: 2500,
+  HP: 499,
+  Surface: 320
+};
 
 /* Step 17
  *
