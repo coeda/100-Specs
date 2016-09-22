@@ -367,6 +367,39 @@ let installLinux = function(linuxType){
  *
  */
 
+let drink = function (beerSelected){
+  let returnString;
+  if(beerSelected in beers){
+    switch (beerSelected){
+      case 'IPA':
+      returnString = 'This IPA is ' + beers.IPA + '.';
+      break;
+
+      case 'Lager':
+      returnString = 'This Lager is ' + beers.Lager+ '.';
+      break;
+
+      case 'Heffeweisen':
+      returnString = 'This Heffeweisen is ' + beers.Heffeweisen+ '.';
+      break;
+
+      case 'Stout':
+      returnString = 'This Stout is ' + beers.Stout[0] + ' and ' + beers.Stout[1]+ '.';
+      break;
+
+      case 'Porter':
+      returnString = 'This Porter is ' + beers.Porter+ '.';
+      break;
+
+      case 'Ale':
+      returnString = 'This Ale is ' + beers.Ale[0] + ' and ' + beers.Ale[1]+ '.';
+      }
+    console.log(beers);
+    return returnString;
+  } else {
+    return false;
+  }
+};
 
 /* Step 24
  *
