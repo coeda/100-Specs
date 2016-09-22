@@ -480,7 +480,10 @@ let listLivingOrgClass = function (){
 
  let favoritePlanet = function (currentPlanet){
   if(planets.indexOf(currentPlanet) > - 1){
-    return "I'm from " + currentPlanet + ' but I wish I could go to ' + planets[1];
+    let min = Math.ceil(0);
+    let max = Math.floor(planets.length - 1);
+    let randomPlanet = Math.floor(Math.random() * (max - min)) + min;
+    return 'I\'m from '  + currentPlanet + ', but I wish I could go to ' + planets[randomPlanet];
   } else {
     return currentPlanet + ' is not a planet!';
   }
