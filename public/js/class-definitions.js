@@ -561,8 +561,12 @@ function Person(name,money,age,gender){
  *
  */
 
- let canTalkAbout = function(){
-
+ let canTalkAbout = function(club){
+  if(club === club_name){
+    return false;
+  } else {
+    return true;
+  }
  };
 
 
@@ -587,6 +591,12 @@ function Person(name,money,age,gender){
  *
  */
 
+function Pen (color){
+  this.color = color;
+  Pen.prototype.write = function(message){
+    return this.color + ': ' + message;
+  };
+}
 
 /* Step 31
  *
