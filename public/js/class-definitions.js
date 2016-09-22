@@ -394,7 +394,6 @@ let drink = function (beerSelected){
       case 'Ale':
       returnString = 'This Ale is ' + beers.Ale[0] + ' and ' + beers.Ale[1]+ '.';
       }
-    console.log(beers);
     return returnString;
   } else {
     return false;
@@ -413,8 +412,25 @@ let drink = function (beerSelected){
  *
  */
 
- let browseURL = function () {
-
+ let browseURL = function (browser) {
+  if(browser in browsers){
+    switch(browser){
+      case 'Chromium':
+        return browsers.Chromium;
+      case 'Safari':
+        return browsers.Safari;
+      case 'Opera':
+        return browsers.Opera;
+      case 'Firefox':
+        return browsers.Firefox;
+      case 'Sleipnir':
+        return browsers.Sleipnir;
+      case 'Konqueror':
+        return browsers.Konqueror;
+    }
+  } else {
+    return false;
+  }
  };
 
 
