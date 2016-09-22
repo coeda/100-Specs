@@ -514,9 +514,19 @@ let listLivingOrgClass = function (){
  *
  */
 
- let Person = function(){
+function Person(name,money,age,gender){
+  this.name = name;
+  this.money = money;
+  this.age = age;
+  this.gender = gender;
 
- };
+  Person.prototype.spendMoney = function(){
+
+  };
+  Person.prototype.earnMoney = function(){
+
+  };
+ }
 
 
 /* Step 28
