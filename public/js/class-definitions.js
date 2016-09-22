@@ -746,6 +746,10 @@ PrincessLeia.prototype = Object.create(Person.prototype);
  *
  */
 
+ function Stapler(){
+
+ }
+
 
 /* Step 35
  *
