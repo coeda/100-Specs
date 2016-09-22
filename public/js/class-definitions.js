@@ -288,6 +288,10 @@ let scmList = ['git', 'svn', 'mercurial', 'bazaar', 'cvs'];
  *
  */
 
+ let beers = {
+
+ };
+
 
 /* Step 20
  *
