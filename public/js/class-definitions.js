@@ -478,6 +478,10 @@ let listLivingOrgClass = function (){
  *
  */
 
+ let favoritePlanet = function (currentPlanet){
+  return "I'm from " + currentPlanet + ' but I wish I could go to ' + planets[1];
+
+ };
 
 /* Step 27
  *
