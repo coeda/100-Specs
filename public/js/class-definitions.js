@@ -444,6 +444,9 @@ let drink = function (beerSelected){
  *
  */
 
+let listLivingOrgClass = function (){
+
+};
 
 /* Step 26
  *
