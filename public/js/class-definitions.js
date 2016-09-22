@@ -520,11 +520,11 @@ function Person(name,money,age,gender){
   this.age = age;
   this.gender = gender;
 
-  Person.prototype.spendMoney = function(){
-
+  Person.prototype.spendMoney = function(cost){
+    return this.money -= cost;
   };
-  Person.prototype.earnMoney = function(){
-
+  Person.prototype.earnMoney = function(earned){
+    return this.money += earned;
   };
  }
 
