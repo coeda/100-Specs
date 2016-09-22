@@ -625,6 +625,16 @@ function Pen (color){
  *
  */
 
+ function Garden (plantsTotal){
+  this.plantsTotal = plantsTotal;
+  this.isWatered = false;
+
+  Garden.prototype.water = function(){
+    this.isWatered = true;
+  };
+
+ }
+
 
 /* Step 32
  *
