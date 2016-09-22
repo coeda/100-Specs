@@ -253,6 +253,7 @@ let laptopCosts = {
  *
  */
 
+let livingOrganismClassification = [];
 
 /* Step 18
  *
