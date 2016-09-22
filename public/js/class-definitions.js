@@ -14,6 +14,7 @@
  *
  */
 
+ let videogame_system = 'Atari';
 
 /* Step 3
  *
