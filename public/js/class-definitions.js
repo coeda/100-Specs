@@ -708,11 +708,12 @@ function PrincessLeia (name, money ,age, gender){
   Person.call(this,name, money, age, gender);
   this.isInTrouble = null;
   PrincessLeia.prototype.shootsGun  = function(){
-    this.isInTrouble = true;
+    this.isInTrouble = false;
     return 'Leia shoots her gun wildly';
   };
   PrincessLeia.prototype.getsInTrouble = function(){
-
+    this.isInTrouble = true;
+    return "Help me Obi-wan Kenobi, you're my only hope";
   };
   PrincessLeia.prototype.marries = function(){
 
