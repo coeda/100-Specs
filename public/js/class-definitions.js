@@ -341,7 +341,11 @@ let scmList = ['git', 'svn', 'mercurial', 'bazaar', 'cvs'];
  */
 
 let installLinux = function(linuxType){
-
+  if(linuxFlavors.indexOf(linuxType) > -1){
+    return true;
+  } else {
+    return false;
+  }
 };
 
 
