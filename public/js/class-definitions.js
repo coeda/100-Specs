@@ -453,7 +453,6 @@ let listLivingOrgClass = function (){
     listItem = document.createTextNode(livingOrganismClassification[i]);
     listObj.appendChild(listItem);
     list.appendChild(listObj);
-    console.log(list.outerHTML);
   }
   return list.outerHTML;
 };
@@ -541,8 +540,13 @@ function Person(name,money,age,gender){
  *
  */
 
- let purchaseLaptop = function(){
-
+ let purchaseLaptop = function(laptop){
+  for(let obj in laptopCosts){
+    if(obj === laptop){
+      return laptopCosts[obj].toString();
+    }
+  }
+  return -1;
  };
 
 /* Step 29
