@@ -561,6 +561,10 @@ function Person(name,money,age,gender){
  *
  */
 
+ let canTalkAbout = function(){
+
+ };
+
 
 /* Step 30
  *
