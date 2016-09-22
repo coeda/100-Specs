@@ -413,6 +413,10 @@ let drink = function (beerSelected){
  *
  */
 
+ let browseURL = function () {
+
+ };
+
 
 /* Step 25
  *
