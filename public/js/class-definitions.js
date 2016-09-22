@@ -44,6 +44,8 @@
  *
  */
 
+ let galilean_moons = [];
+
 
 /* Step 6 φ
  *
