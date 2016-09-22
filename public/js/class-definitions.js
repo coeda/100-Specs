@@ -202,7 +202,7 @@ let browsers = {
  *
  */
 
-let linuxFlavors = [];
+let linuxFlavors = ['Gentoo', 'Fedora', 'Debian', 'Slackware', 'Red Hat', 'Bieber Linux'];
 
 /* Step 15
  *
