@@ -704,6 +704,9 @@ function SolarSystem(){
  *
  */
 
+function PrincessLeia (){
+
+};
 
 /* Step 34
  *
