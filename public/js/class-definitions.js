@@ -33,6 +33,8 @@
  * Capitalize the names.
  */
 
+ let planets = [];
+
 
 /* Step 5
  *
