@@ -44,7 +44,7 @@
  *
  */
 
- let galilean_moons = [];
+ let galilean_moons = ['io', 'europa', 'ganymede', 'callisto'];
 
 
 /* Step 6 φ
