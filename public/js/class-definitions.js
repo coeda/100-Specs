@@ -323,6 +323,10 @@ let scmList = ['git', 'svn', 'mercurial', 'bazaar', 'cvs'];
  *
  */
 
+ let addNumbers = function (num,number){
+  return num + number;
+ };
+
 
 /* Step 22
  *
