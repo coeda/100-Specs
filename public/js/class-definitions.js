@@ -340,6 +340,10 @@ let scmList = ['git', 'svn', 'mercurial', 'bazaar', 'cvs'];
  *
  */
 
+let installLinux = function(linuxType){
+
+};
+
 
 /* Step 23
  *
