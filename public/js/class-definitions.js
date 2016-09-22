@@ -541,6 +541,9 @@ function Person(name,money,age,gender){
  *
  */
 
+ let purchaseLaptop = function(){
+
+ };
 
 /* Step 29
  *
