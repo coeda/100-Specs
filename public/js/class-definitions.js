@@ -660,6 +660,10 @@ function Pen (color){
  *
  */
 
+function SolarSystem(){
+  this.planets = [];
+
+}
 
 /* Step 33
  *
