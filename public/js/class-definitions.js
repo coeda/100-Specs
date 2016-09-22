@@ -479,7 +479,12 @@ let listLivingOrgClass = function (){
  */
 
  let favoritePlanet = function (currentPlanet){
-  return "I'm from " + currentPlanet + ' but I wish I could go to ' + planets[1];
+  if(planets.indexOf(currentPlanet) > - 1){
+    return "I'm from " + currentPlanet + ' but I wish I could go to ' + planets[1];
+  } else {
+    return currentPlanet + ' is not a planet!';
+  }
+
 
  };
 
