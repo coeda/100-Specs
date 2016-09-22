@@ -514,6 +514,10 @@ let listLivingOrgClass = function (){
  *
  */
 
+ let Person = function(){
+
+ };
+
 
 /* Step 28
  *
