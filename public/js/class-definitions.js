@@ -202,6 +202,7 @@ let browsers = {
  *
  */
 
+let linuxFlavors = [];
 
 /* Step 15
  *
