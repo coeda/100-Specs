@@ -633,6 +633,13 @@ function Pen (color){
     this.isWatered = true;
   };
 
+  Garden.prototype.grow = function(){
+    if(this.isWatered === false){
+      return false;
+    } else {
+      return this.plantsTotal += 1;
+    }
+  };
  }
 
 
