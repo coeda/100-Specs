@@ -665,6 +665,9 @@ function SolarSystem(){
   SolarSystem.prototype.addPlanet = function(planet){
     this.planets.push(planet);
   };
+  SolarSystem.prototype.removePlanet = function(){
+    this.planets.pop();
+  };
 
 }
 
