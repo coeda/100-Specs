@@ -5,6 +5,7 @@
  *
  */
 
+ let unicorn = null;
 
 /* Step 2
  *
