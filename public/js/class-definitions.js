@@ -33,7 +33,7 @@
  * Capitalize the names.
  */
 
- let planets = [];
+ let planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'];
 
 
 /* Step 5
