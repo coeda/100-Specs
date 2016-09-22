@@ -662,6 +662,9 @@ function Pen (color){
 
 function SolarSystem(){
   this.planets = [];
+  SolarSystem.prototype.addPlanet = function(planet){
+    this.planets.push(planet);
+  };
 
 }
 
