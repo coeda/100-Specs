@@ -453,10 +453,9 @@ let listLivingOrgClass = function (){
     listItem = document.createTextNode(livingOrganismClassification[i]);
     listObj.appendChild(listItem);
     list.appendChild(listObj);
-    console.log(list);
+    console.log(list.outerHTML);
   }
-
-  return list;
+  return list.outerHTML;
 };
 
 /* Step 26
