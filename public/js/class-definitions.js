@@ -715,8 +715,14 @@ function PrincessLeia (name, money ,age, gender){
     this.isInTrouble = true;
     return "Help me Obi-wan Kenobi, you're my only hope";
   };
-  PrincessLeia.prototype.marries = function(){
-
+  PrincessLeia.prototype.marries = function(loveInterest){
+    if(loveInterest === 'Han Solo'){
+      return true;
+    } else if(loveInterest === 'Luke Skywalker'){
+      return 'Gross!';
+    } else {
+      return false;
+    }
   };
 }
 
