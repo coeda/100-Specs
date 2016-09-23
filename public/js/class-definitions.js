@@ -1446,7 +1446,7 @@ var closeAnOpenBox = new Box('Stuff', true).openBox();
  *
  */
 var openAClosedDoor = new Door(false).openClose();
-var closeAnOpenDoor;
+var closeAnOpenDoor = new Door(true).openClose();
 
 
 /* Step 96
