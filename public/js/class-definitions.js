@@ -1146,7 +1146,7 @@ var hexagon = new Shape(6);;
 // Create 2 boxes
 var cat = new Animal('Cat', 'male');
 var catBox = new Box(cat, true);
-var christmasPresent = new Box();
+var christmasPresent = new Box('present', false);
 
 // Create 2 doors
 var automaticDoor;
