@@ -1194,7 +1194,6 @@ var dinner = new Meal(['fish', 'vegetables']);
  */
 
 Animal.prototype.isWarmBlooded = function (){
-  console.log(this.species);
   switch(this.species){
     case 'Fish':
       return false;
@@ -1215,6 +1214,13 @@ Animal.prototype.isWarmBlooded = function (){
  *
  */
 
+Vehicle.prototype.drive = function(streetName){
+  if(typeof streetName !== 'string' || streetName === '' || streetName === null){
+    return 'Driving forward';
+  } else {
+    return 'Driving on ' + streetName;
+  }
+};
 
  /* Step 83
  *
