@@ -1306,6 +1306,9 @@ Door.prototype.openClose = function (){
  *
  */
 
+Shoe.prototype.findShoes = function (){
+
+}
 
  /* Step 87
  *
