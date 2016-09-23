@@ -1380,7 +1380,6 @@ Cookie.prototype.swipedByCookieMonster = function(dayOfTheWeek){
 Meal.prototype.containsJunkFood = function(){
   let junkFood = ['chips', 'soda', 'ice cream', 'popcorn', 'candy'];
   for(let i = 0; i <= this.foods.length -1; i++){
-    console.log(this.foods[i]);
     if(junkFood.indexOf(this.foods[i]) > -1){
       return true;
     }
@@ -1401,7 +1400,9 @@ Meal.prototype.containsJunkFood = function(){
  * and assign the values to each variable below.
  *
  */
-var warmBloodedAnimal;
+
+ let newAnimal = new Animal('Bird', 'male');
+var warmBloodedAnimal = newAnimal.isWarmBlooded();
 var coldBloodedAnimal;
 var notWarmOrColdAnimal;
 
