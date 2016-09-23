@@ -1476,7 +1476,7 @@ var shortStory = new House(1).isATallStory(2);
  *
  */
 var kitchenLightsOn = new Lightbulb(false).flipSwitch('on');
-var porchLightsOff;
+var porchLightsOff = new Lightbulb(true).flipSwitch('');
 
 
  /* Step 99
