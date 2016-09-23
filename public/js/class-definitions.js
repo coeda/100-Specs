@@ -432,12 +432,10 @@ let drink = function (beerSelected){
  */
 
 let listLivingOrgClass = function (){
-  let listItem;
-  let i = 0;
   let list = document.createElement('ul');
   for(i = 0; i < livingOrganismClassification.length; i++){
     let listObj = document.createElement('li');
-    listItem = document.createTextNode(livingOrganismClassification[i]);
+    let listItem = document.createTextNode(livingOrganismClassification[i]);
     listObj.appendChild(listItem);
     list.appendChild(listObj);
   }
