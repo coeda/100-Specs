@@ -736,6 +736,13 @@ PrincessLeia.prototype = Object.create(Person.prototype);
  function Stapler(color, maxPapers){
   this.color = color;
   this.maxPapers = maxPapers;
+  Stapler.prototype.staplePapers = function(number){
+    if(number > maxPapers){
+      return false;
+    } else {
+      return true;
+    }
+  };
  }
 
 
