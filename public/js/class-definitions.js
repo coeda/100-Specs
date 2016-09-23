@@ -1426,7 +1426,7 @@ var forwardDriving = new Vehicle('Toyota', 'Supra').drive();
  *
  */
 var decagon = new Shape(10).getType();
-var polygon;
+var polygon = new Shape(111).getType();
 
 
 /* Step 94
