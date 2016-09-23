@@ -1036,6 +1036,14 @@ function Vehicle(make, model){
 
 function Shape(number){
   this.number = number;
+  if(this.number < 3 || typeof this.number !== 'number'){
+    this.sides = null;
+  } else {
+    this.sides = true;
+  }
+
+
+
 }
 
 /**
