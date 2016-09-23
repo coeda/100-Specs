@@ -789,7 +789,27 @@ function Scientist(name, money, age, gender){
 Person.call(this, name, money, age, gender);
 this.disciplines = [];
 this.discoveries = [];
+Scientist.prototype.addDiscipline = function(discipline){
+  this.disciplines.push(discipline);
+};
+Scientist.prototype.checkDiscipline = function(discipline){
+  if(this.disciplines.indexOf(discipline) >= 0){
+    return true;
+  } else {
+    return false;
+  }
+};
+Scientist.prototype.addDiscovery = function(discovery){
+  this.discoveries.push(discovery);
+  if(this.discoveries.length > 2){
+    return 'I discovered ' + this.discoveries.slice(0, this.discoveries.length -1).join(', ') + ', and ' + this.discoveries[this.discoveries.length - 1] + '.';
+  return 'I discovered ' + this.discoveries.join(', ') + '.';
+  } else {
+  return 'I discovered ' + this.discoveries.join(' and ') + '.';
+  }
+};
 }
+
 
 Scientist.prototype = Object.create(Person.prototype);
 
