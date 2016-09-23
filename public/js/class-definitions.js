@@ -1403,8 +1403,10 @@ Meal.prototype.containsJunkFood = function(){
 
  let newAnimal = new Animal('Bird', 'male');
 var warmBloodedAnimal = newAnimal.isWarmBlooded();
-var coldBloodedAnimal;
-var notWarmOrColdAnimal;
+newAnimal = new Animal('Fish', 'male');
+var coldBloodedAnimal = newAnimal.isWarmBlooded();
+newAnimal = new Animal('Hippo', 'male');
+var notWarmOrColdAnimal = newAnimal.isWarmBlooded();
 
 
 /* Step 92
