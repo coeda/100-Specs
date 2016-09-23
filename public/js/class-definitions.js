@@ -1034,6 +1034,9 @@ function Vehicle(make, model){
  *
  */
 
+function Shape(number){
+  this.number = number;
+}
 
 /**
  * Step 53
