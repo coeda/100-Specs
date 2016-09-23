@@ -1445,7 +1445,7 @@ var closeAnOpenBox = new Box('Stuff', true).openBox();
  * and assign the values to each variable below.
  *
  */
-var openAClosedDoor;
+var openAClosedDoor = new Door(false).openClose();
 var closeAnOpenDoor;
 
 
