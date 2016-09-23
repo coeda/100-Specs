@@ -414,20 +414,7 @@ let drink = function (beerSelected){
 
  let browseURL = function (browser) {
   if(browser in browsers){
-    switch(browser){
-      case 'Chromium':
-        return browsers.Chromium;
-      case 'Safari':
-        return browsers.Safari;
-      case 'Opera':
-        return browsers.Opera;
-      case 'Firefox':
-        return browsers.Firefox;
-      case 'Sleipnir':
-        return browsers.Sleipnir;
-      case 'Konqueror':
-        return browsers.Konqueror;
-    }
+    return browsers[browser];
   } else {
     return false;
   }
@@ -746,8 +733,9 @@ PrincessLeia.prototype = Object.create(Person.prototype);
  *
  */
 
- function Stapler(){
-
+ function Stapler(color, maxPapers){
+  this.color = color;
+  this.maxPapers = maxPapers;
  }
 
 
