@@ -1052,8 +1052,9 @@ function Shape(number){
  * @param {boolean} isOpen     Whether the box is opened or closed
  */
 
-function Box(){
-
+function Box(contents, isOpen){
+  this.contents = contents;
+  this.isOpen = isOpen;
 }
 
 /**
