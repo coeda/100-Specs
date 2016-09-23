@@ -1042,8 +1042,6 @@ function Shape(number){
     this.sides = true;
   }
 
-
-
 }
 
 /**
@@ -1054,6 +1052,9 @@ function Shape(number){
  * @param {boolean} isOpen     Whether the box is opened or closed
  */
 
+function Box(){
+
+}
 
 /**
  * Step 54
