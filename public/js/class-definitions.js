@@ -1416,7 +1416,7 @@ var notWarmOrColdAnimal = newAnimal.isWarmBlooded();
  *
  */
 var streetDriving = new Vehicle('Honda', 'Civic').drive('This Street');
-var forwardDriving;
+var forwardDriving = new Vehicle('Toyota', 'Supra').drive();
 
 
  /* Step 93
