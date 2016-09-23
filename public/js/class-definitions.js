@@ -1379,7 +1379,7 @@ Cookie.prototype.swipedByCookieMonster = function(dayOfTheWeek){
 
 Meal.prototype.containsJunkFood = function(){
   let junkFood = ['chips', 'soda', 'ice cream', 'popcorn', 'candy'];
-  for(let i = 0; i <= this.foods.length -1; i++){
+  for(let i = 0; i < this.foods.length; i++){
     if(junkFood.indexOf(this.foods[i]) > -1){
       return true;
     }
@@ -1485,8 +1485,8 @@ var porchLightsOff = new Lightbulb(true).flipSwitch('');
  * and assign the values to each variable below.
  *
  */
-var cookieMonsterPwns;
-var cookieMonsterBlocked;
+var cookieMonsterPwns = new Cookie('chocolate').swipedByCookieMonster('Monday');
+var cookieMonsterBlocked = new Cookie('chocolate').swipedByCookieMonster('Tuesday');
 
 
  /* Step 100
