@@ -1039,7 +1039,7 @@ function Shape(number){
   if(this.number < 3 || typeof this.number !== 'number'){
     this.sides = null;
   } else {
-    this.sides = true;
+    this.sides = number;
   }
 
 }
@@ -1140,7 +1140,7 @@ var civic = new Vehicle('Honda', 'Civic');
 var forte = new Vehicle('KIA', 'Forte');
 
 // Create 2 shapes with different numbers of sides
-var square;
+var square = new Shape(4);
 var hexagon;
 
 // Create 2 boxes
