@@ -785,6 +785,13 @@ PrincessLeia.prototype = Object.create(Person.prototype);
  *
  */
 
+function Scientist(name, money, age, gender){
+Person.call(this, name, money, age, gender);
+this.disciplines = [];
+this.discoveries = [];
+}
+
+Scientist.prototype = Object.create(Person.prototype);
 
 /* Step 36
  *
