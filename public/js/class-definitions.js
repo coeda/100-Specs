@@ -1154,7 +1154,7 @@ var bankVault = new Door(false);
 
 // Create 2 shoes
 var rubySlippers = new Shoe(7, 'red');
-var dressShoes = new Shoe();
+var dressShoes = new Shoe(10, 'black');
 
 // Create 2 houses
 var singleStory;
