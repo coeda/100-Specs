@@ -1425,7 +1425,7 @@ var forwardDriving = new Vehicle('Toyota', 'Supra').drive();
  * and assign the values to each variable below.
  *
  */
-var decagon;
+var decagon = new Shape(10).getType();
 var polygon;
 
 
