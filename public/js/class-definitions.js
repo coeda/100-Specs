@@ -803,7 +803,6 @@ Scientist.prototype.addDiscovery = function(discovery){
   this.discoveries.push(discovery);
   if(this.discoveries.length > 2){
     return 'I discovered ' + this.discoveries.slice(0, this.discoveries.length -1).join(', ') + ', and ' + this.discoveries[this.discoveries.length - 1] + '.';
-  return 'I discovered ' + this.discoveries.join(', ') + '.';
   } else {
   return 'I discovered ' + this.discoveries.join(' and ') + '.';
   }
@@ -1007,6 +1006,9 @@ Scientist.prototype = Object.create(Person.prototype);
  * @param {string} gender  male or female
  */
 
+function Animal() {
+
+};
 
 /**
  * Step 51
