@@ -1415,7 +1415,7 @@ var notWarmOrColdAnimal = newAnimal.isWarmBlooded();
  * and assign the values to each variable below.
  *
  */
-var streetDriving;
+var streetDriving = new Vehicle('Honda', 'Civic').drive('This Street');
 var forwardDriving;
 
 
